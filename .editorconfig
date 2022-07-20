@@ -1,3 +1,7 @@
+var editorconfig = require('editorconfig');
+var fs = require('fs');
+var path = require('path');
+var configPath = path.join(__dirname, '/.editorconfig');
 root = true
 
 [*]
